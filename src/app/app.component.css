@@ -1,0 +1,99 @@
+.box{
+    width:300px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url("/assets/farm.png");
+    text-align: left;
+    position: absolute;
+    ;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: rgb(71, 214, 71);
+    background-size: cover;
+    background-image: image("/assets/ALVINE'S FIRST DESIGN.jpg");
+}
+.box h1{
+    color: white;
+    font-weight: 700;
+}
+.box input[type="password"], .box input[type="email"],.box input[type="name"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border: 2px solid white;
+    padding: 10px 10px;
+    width: 220px;
+    outline: none;
+    color: burlywood;
+    border-radius: 15px;
+    transition: 0.25px;
+    color: rgb(253, 253, 253);
+    font-size: 17px;
+}
+.box input[type="submit"],button{
+    border: 0;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 14px 10px;
+
+    outline: none;
+    color: burlywood;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    border-color: blue;
+width: 202px;}
+.box input[type="submit"]{
+    color:blue;
+    font-weight: 500px;
+}
+button{
+    color:rgb(38, 0, 128);
+    display:flex;
+    text-align: right;
+    padding: auto;
+}
+p,h1{
+    text-align: center;
+    color: aliceblue;
+}
+password{
+    color: white;
+}
+p{
+    color: black;
+}
+.logo{
+    width: 15px;
+    margin-left: 12px;
+    padding-right:10px ;
+}
+a{font-size: 17px;
+    text-decoration: brown;
+    color: blue;
+}
+.google{ 
+    color: red;
+    width:15px;
+    padding-right: 10px;
+    margin-left: 12px;
+}
+.g{
+    color: red;
+}
+.box input[type="submit"]:focus,button:focus{
+    border-color: green;
+    border: 3px;
+
+}
